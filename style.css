@@ -214,3 +214,45 @@ nav, a{
   transform: translateX(-50%) scale(0.8);
   transform-origin: bottom;
 }
+
+.fifth-page{
+  min-height: 100vh;
+}
+
+.product-video{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.product-info-container{
+  position: relative;
+  z-index: 2;
+  color: white;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: space-between;
+  padding: 0rem 10rem;
+}
+
+.right-info, .left-info{
+  width: 20%;
+}
+
+.right-info h3, .left-info h3{
+  padding: 3rem 0;
+  color: rgb(194, 194, 194);
+}
+
+.left-info span, .right-info span{
+  font-size: 1.5rem;
+  color: rgb(194, 194, 194);
+}
+
+.sixth-page{
+  min-height: 100vh;
+  padding: 10% 20%;
+}
