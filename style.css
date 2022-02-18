@@ -220,6 +220,10 @@ nav, a{
   transform-origin: bottom;
 }
 
+.blue {
+  z-index: 1;
+}
+
 .fifth-page{
   min-height: 100vh;
 }
